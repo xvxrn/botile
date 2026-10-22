@@ -1,6 +1,6 @@
 # Botile
 
-[Русская версия](README.ru.md)
+[Русская версия](ru/README.ru.md)
 
 Botile gives Telegram bot avatars a rounded-square shape with a customizable
 outline. Other avatars keep the shape chosen by the client.

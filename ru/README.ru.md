@@ -1,6 +1,6 @@
 # Botile
 
-[English version](README.md)
+[English version](../README.md)
 
 Botile придаёт аватарам Telegram-ботов скруглённую квадратную форму с
 настраиваемой обводкой. Остальные аватары сохраняют форму, выбранную клиентом.
@@ -21,4 +21,4 @@ Botile придаёт аватарам Telegram-ботов скруглённу�
 
 ## Лицензия
 
-MIT — см. [LICENSE](LICENSE).
+MIT — см. [LICENSE.ru.md](LICENSE.ru.md).
