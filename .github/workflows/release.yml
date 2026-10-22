@@ -24,7 +24,7 @@ jobs:
           python-version: "3.11"
       - name: Check and package
         run: |
-          python3 -m py_compile Botile.plugin
+          python3 -m py_compile plugin/botile.plugin
           python3 scripts/package_release.py --check
           python3 tests/test_state_preservation.py
           python3 scripts/package_release.py --tag "$GITHUB_REF_NAME" --output-dir dist

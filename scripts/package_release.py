@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PLUGIN = ROOT / "Botile.plugin"
+PLUGIN = ROOT / "plugin" / "botile.plugin"
 VERSION_RE = re.compile(r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$")
 TAG_RE = re.compile(r"^v(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$")
 FIELDS = (
@@ -32,7 +32,7 @@ def read_metadata():
     try:
         tree = ast.parse(PLUGIN.read_text(encoding="utf-8"), filename=str(PLUGIN))
     except (OSError, SyntaxError) as error:
-        fail("cannot parse Botile.plugin: %s" % error)
+        fail("cannot parse plugin/botile.plugin: %s" % error)
 
     values = {}
     for node in tree.body:
@@ -110,7 +110,7 @@ def main():
     shutil.copyfile(PLUGIN, asset)
     digest = sha256(asset)
     if digest != sha256(PLUGIN):
-        fail("packaged asset does not match Botile.plugin")
+        fail("packaged asset does not match plugin/botile.plugin")
     checksums = output / "SHA256SUMS"
     checksums.write_text(
         "%s  %s\n" % (digest, asset.name), encoding="ascii", newline="\n"

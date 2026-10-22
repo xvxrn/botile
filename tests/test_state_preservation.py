@@ -10,7 +10,7 @@ import threading
 import types
 from importlib.machinery import SourceFileLoader
 
-PLUGIN = "Botile.plugin"
+PLUGIN = "plugin/botile.plugin"
 MARKER = "botile:bot"
 
 
