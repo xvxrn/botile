@@ -1,6 +1,7 @@
 """Botile: rounded-square avatars for Telegram bots.
 
-Hooks the shared ImageReceiver paths used by exteraless 12.10.6+:
+Hooks the shared ImageReceiver paths used by exteraGram and its forks
+(exteraless, AyuGram; the last two are untested):
 
 * setForUserOrChat() identifies the TLRPC entity and marks bot receivers.
 * setRoundRadius() enforces Botile's radius while preserving the app baseline.
@@ -995,6 +996,7 @@ class BotilePlugin(BasePlugin):
 
     def _has_hooks_permission(self):
         try:
+            # exteraless exposes the bridge here; other hosts fall through to granted.
             from app.exteraless.plugins import PythonBridge
 
             allowed = bool(PythonBridge.hasPermission(self.id, "hooks"))
