@@ -21,4 +21,4 @@ outline. Other avatars keep the shape chosen by the client.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE.md).
