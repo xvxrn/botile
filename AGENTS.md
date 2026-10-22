@@ -12,6 +12,7 @@ alone. Python loaded by the client's plugin host (Chaquopy), not a standalone ap
 | `scripts/package_release.py` | Validates metadata, builds `dist/Botile-<version>.plugin` + `SHA256SUMS`. |
 | `tests/test_state_preservation.py` | Host-side mocks for state restore, settings, drawing, reflection. |
 | `.github/workflows/` | CI on `main`, release on `v*.*.*` tags. |
+| `.github/preview.webp` | Screenshot shown at the top of both READMEs. |
 | `ru/` | Russian README and license; English originals stay at the root. |
 
 ## Commands
