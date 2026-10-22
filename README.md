@@ -1,3 +1,5 @@
+![Botile](.github/preview.webp)
+
 # Botile
 
 [Русская версия](ru/README.ru.md)

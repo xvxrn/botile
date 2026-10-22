@@ -1,3 +1,5 @@
+![Botile](../.github/preview.webp)
+
 # Botile
 
 [English version](../README.md)
