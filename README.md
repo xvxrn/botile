@@ -7,6 +7,10 @@
 Botile gives Telegram bot avatars a rounded-square shape with a customizable
 outline. Other avatars keep the shape chosen by the client.
 
+The shape is there for one practical reason: bots are easy to tell apart from
+people and channels at a glance, in a chat list or in a group where everyone
+writes at once.
+
 ## Features
 
 - Rounded-square bot avatars.

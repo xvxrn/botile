@@ -8,6 +8,9 @@ Tested on exteraGram only. exteraless and AyuGram use the same plugin API and ar
 supported targets, but nobody has run Botile on them; treat their support as
 unverified.
 
+The shape exists for distinguishability: a bot should be recognisable as a bot
+at a glance, without reading its name, in a chat list or a busy group.
+
 Plugin API (hooks, settings, Chaquopy interop): [`docs/plugin-api.md`](docs/plugin-api.md).
 
 ## Layout
