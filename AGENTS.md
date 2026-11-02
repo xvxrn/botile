@@ -21,7 +21,7 @@ Plugin API (hooks, settings, Chaquopy interop): [`docs/plugin-api.md`](docs/plug
 | `scripts/package_release.py` | Validates metadata, builds `dist/Botile-<version>.plugin` + `SHA256SUMS`. |
 | `tests/test_state_preservation.py` | Host-side mocks for state restore, settings, drawing, reflection. |
 | `docs/plugin-api.md` | How plugins for this host family are written. |
-| `.github/` | Workflows (CI on `main`, release on `v*.*.*` tags) and `preview.webp` for the READMEs. |
+| `.github/` | CI workflow and `preview.webp` for the READMEs. |
 | `ru/` | Russian README and license; English originals stay at the root. |
 
 ## Commands
