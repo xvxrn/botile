@@ -48,6 +48,7 @@ python3 scripts/package_release.py --output-dir dist
 - Keep host-side tests runnable without the client or Android: use the mocks,
   they do not replace a device test.
 - Name every client you claim support for, and say which ones were never run.
+- A change that fits in one commit goes straight to `main`; do not open a PR for it.
 
 ## Language
 
